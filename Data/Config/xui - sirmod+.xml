@@ -1,7 +1,7 @@
 <xui>
 	<ruleset name="default" scale="1.255" stackpanel_scale="1.05">
 
-<!-- <<< SMX A16.3B12R2 START - BY SIRILLION >>> -->
+<!-- <<< SMX A16.4B8R1 START - BY SIRILLION >>> -->
 
 		<window_group name="crafting" controller="XUiC_CraftingWindowGroup">
 			<window name="SMXCraftingList" />																<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
@@ -76,7 +76,29 @@
 			<window name="windowNonPagingHeader" />
 		</window_group>
 
-<!-- <<< SMX A16.3B12R2 END - BY SIRILLION >>> -->
+<!-- <<< SMX A16.4B8R1 END - BY SIRILLION >>> -->
+
+		<window_group name="looting" left_panel_valign_top="false" controller="XUiC_LootWindowGroup">
+			<window name="windowLooting" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+
+		<window_group name="creative" controller="XUiC_CreativeWindowGroup">
+			<window name="windowCreative" />
+		</window_group>
+
+		<!--#$-IGS BEGIN: Needed to disable input in new system -$#-->
+		<window_group name="backpack" actionSet="false">
+			<window name="itemInfoPanel" />
+			<window name="emptyInfoPanel" />
+			<window name="windowBackpack" />
+		</window_group>
+
+		<window_group name="dragAndDrop" actionSet="false">
+			<window name="dragAndDropItemStack" />
+		</window_group>
+
+<!-- <<< SMX A16.4B8R1 START - BY SIRILLION >>> -->
 		
 		<window_group name="compass" actionSet="false">
 <!--		<window name="SMXCompass1SMX" anchor="CenterTop" />	-->			<!-- SMX UI -->					<!-- Disable this if you want to use the VALMOD or SIRMOD designs -->
@@ -96,7 +118,7 @@
 			<window name="SMXLevelXPUF3SIRMOD" anchor="LeftTop" /> 			<!-- SIRMOD UI -->				<!-- Disable this if you want to use the SMX or VALMOD designs -->
 		</window_group>
 		
-<!-- <<< SMX A16.3B12R2 END - BY SIRILLION >>> -->
+<!-- <<< SMX A16.4B8R1 END - BY SIRILLION >>> -->
 
 		<window_group name="toolTip" actionSet="false">
 			<window name="toolTip" />
@@ -115,7 +137,7 @@
 			<window name="windowTimer" />
 		</window_group>
 
-<!-- <<< SMX A16.3B12R2 START - BY SIRILLION >>> -->
+<!-- <<< SMX A16.4B8R1 START - BY SIRILLION >>> -->
 		
 		<window_group name="toolbelt" actionSet="false">
 <!--		<window name="SMXToolbelt1SMX" anchor="CenterBottom" /> -->		<!-- SMX UI -->					<!-- Disable this if you want to use the VALMOD or SIRMOD designs -->
@@ -156,7 +178,7 @@
 			<window name="SMXVehicleStorage" />
 		</window_group>
 
-<!-- <<< SMX A16.3B12R2 END - BY SIRILLION >>> -->
+<!-- <<< SMX A16.4B8R1 END - BY SIRILLION >>> -->
 
 		<window_group name="windowpaging" actionSet="false">
 			<window name="windowPagingHeader" anchor="CenterTop" />
@@ -268,7 +290,7 @@
 			<window name="spawnMenu" />
 		</window_group>
 
-<!-- <<< SMX A16.3B12R2 START - BY SIRILLION >>> -->
+<!-- <<< SMX A16.4B8R1 START - BY SIRILLION >>> -->
 		
 		<window_group name="ingameMenu">
 <!--		<window name="ingameMenu" /> -->
@@ -280,7 +302,7 @@
 <!--		<window name="CRAFTWORXingameMenu" /> -->
 		</window_group>
 		
-<!-- <<< SMX A16.3B12R2 END - BY SIRILLION >>> -->
+<!-- <<< SMX A16.4B8R1 END - BY SIRILLION >>> -->
 
 		<window_group name="woPropsSleeperVolume">
 			<window name="woPropsSleeperVolume" />

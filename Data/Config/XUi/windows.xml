@@ -1,6 +1,6 @@
 <windows>
 
-<!-- <<< SMX A16.3B12R2 START - BY SIRILLION >>> -->
+<!-- <<< SMX A16.4B8R1 START - BY SIRILLION >>> -->
 
 <!-- >>> LOGO & SERVER INFORMATION >>> -->
 
@@ -973,7 +973,7 @@
 
 <!-- <<< SMX TEST CODE <<< -->
 
-<!-- <<< SMX A16.3B12R2 END - BY SIRILLION >>> -->
+<!-- <<< SMX A16.4B8R1 END - BY SIRILLION >>> -->
 
 	<window name="HUDLeftStatBars">
 		<grid name="hud" pos="9,98" rows="2" cols="1" width="168" cell_width="168" cell_height="46" repeat_content="false" side="left" >
@@ -1382,7 +1382,7 @@
 		</rect>
 	</window>
 
-<!-- <<< SMX A16.3B12R2 START - BY SIRILLION >>> -->	
+<!-- <<< SMX A16.4B8R1 START - BY SIRILLION >>> -->	
 
 <!-- The following section handles: The selection between NORMAL or INCREASED BACKPACK size -->
 
@@ -1424,7 +1424,7 @@
 	</window>
 
 
-<!-- <<< SMX A16.3B12R2 END - BY SIRILLION >>> -->
+<!-- <<< SMX A16.4B8R1 END - BY SIRILLION >>> -->
 
 	<!--#$-IGS BEGIN: Adding cursor area. -$#-->
 	<window name="windowToolsForge" width="228" height="121" panel="Right" cursor_area="true" >
